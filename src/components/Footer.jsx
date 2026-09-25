@@ -55,7 +55,7 @@ export default function Footer() {
               <Mail size={16} />
             </a>
             <a
-              href="https://www.linkedin.com/in/ft-shalkikadam-9246279b"
+              href="https://www.linkedin.com/in/ft-shalki-kadam-9246279b/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-9 h-9 rounded-lg bg-slate-100 dark:bg-navy-700 border border-slate-200 dark:border-navy-600 flex items-center justify-center text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 hover:border-teal-300 dark:hover:border-teal-500/50 transition-all duration-200"

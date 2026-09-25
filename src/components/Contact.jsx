@@ -12,8 +12,8 @@ const contactInfo = [
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'ft-shalkikadam-9246279b',
-    href: 'https://www.linkedin.com/in/ft-shalkikadam-9246279b',
+    value: 'ft-shalki-kadam-9246279b',
+    href: 'https://www.linkedin.com/in/ft-shalki-kadam-9246279b/',
     color: 'blue',
   },
   {
@@ -130,7 +130,7 @@ export default function Contact() {
                   Send Email
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/ft-shalkikadam-9246279b"
+                  href="https://www.linkedin.com/in/ft-shalki-kadam-9246279b/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-outline justify-center"

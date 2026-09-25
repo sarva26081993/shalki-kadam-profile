@@ -142,7 +142,7 @@ export default function Certifications() {
               All certifications are verifiable and from accredited institutions
             </span>
             <a
-              href="https://www.linkedin.com/in/ft-shalkikadam-9246279b"
+              href="https://www.linkedin.com/in/ft-shalki-kadam-9246279b/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-teal-700 dark:text-teal-400 hover:text-teal-600 dark:hover:text-teal-300 text-sm font-semibold transition-colors"

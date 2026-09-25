@@ -68,7 +68,7 @@ export default function Hero() {
                 Get in Touch
               </a>
               <a
-                href="https://www.linkedin.com/in/ft-shalkikadam-9246279b"
+                href="https://www.linkedin.com/in/ft-shalki-kadam-9246279b/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline"
