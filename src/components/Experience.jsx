@@ -246,7 +246,7 @@ export default function Experience() {
                                 </span>
                               )}
                             </div>
-                            <p className="text-xs text-slate-400 mb-3">{role.period} · {role.duration}</p>
+                            <p className="text-xs text-slate-500 dark:text-slate-400 mb-3">{role.period} · {role.duration}</p>
                             <ul className="space-y-1.5">
                               {role.highlights.map((point, i) => (
                                 <li key={i} className="flex items-start gap-2 text-sm text-slate-600 dark:text-slate-300">

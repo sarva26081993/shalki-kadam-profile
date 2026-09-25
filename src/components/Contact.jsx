@@ -85,7 +85,7 @@ export default function Contact() {
                     <Icon size={20} className={colors.text} />
                   </div>
                   <div>
-                    <p className="text-xs text-slate-400 uppercase tracking-wider">{label}</p>
+                    <p className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wider">{label}</p>
                     <p className="text-slate-800 dark:text-white font-medium text-sm mt-0.5 break-all">{value}</p>
                   </div>
                   <Send size={14} className={`ml-auto ${colors.text} opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200`} />

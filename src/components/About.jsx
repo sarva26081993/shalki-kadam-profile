@@ -15,7 +15,7 @@ export default function About() {
   const { ref, isVisible } = useScrollReveal()
 
   return (
-    <section id="about" className="py-24 relative">
+    <section id="about" className="py-24 bg-white dark:bg-navy-900 relative">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-teal-500/30 to-transparent" />
 
       <div
@@ -32,19 +32,19 @@ export default function About() {
               Shaping Food Safety<br />
               <span className="text-gradient">Standards Across India</span>
             </h2>
-            <div className="space-y-4 text-slate-600 dark:text-slate-300 leading-relaxed">
+            <div className="space-y-4 text-slate-700 dark:text-slate-300 leading-relaxed">
               <p>
-                With over <strong className="text-slate-900 dark:text-white">10 years of comprehensive industrial experience</strong> spanning
+                With over <strong className="text-slate-900 dark:text-white font-semibold">10 years of comprehensive industrial experience</strong> spanning
                 multiple sectors of the food industry, I bring deep expertise in food safety auditing,
                 consulting, and training to organizations committed to excellence.
               </p>
               <p>
-                As a <strong className="text-teal-600 dark:text-teal-400">Certified Lead Auditor</strong> for FSSC 22000, ISO 22000:2018,
+                As a <strong className="text-teal-700 dark:text-teal-400 font-semibold">Certified Lead Auditor</strong> for FSSC 22000, ISO 22000:2018,
                 and IMS, I have guided numerous organizations through certification journeys,
                 gap analyses, and sustainable food safety management system implementations.
               </p>
               <p>
-                Currently serving as <strong className="text-slate-900 dark:text-white">Food Scheme In-charge at TQ Cert Services Pvt. Ltd.</strong>,
+                Currently serving as <strong className="text-slate-900 dark:text-white font-semibold">Food Scheme In-charge at TQ Cert Services Pvt. Ltd.</strong>,
                 I continue to drive quality and compliance excellence across the Mumbai region and beyond.
               </p>
             </div>
@@ -52,17 +52,17 @@ export default function About() {
 
           {/* Right: Highlights */}
           <div className="space-y-3">
-            <p className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-5">
+            <p className="text-sm font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider mb-5">
               Core Expertise
             </p>
             {highlights.map((item, i) => (
               <div
                 key={i}
-                className="flex items-start gap-3 p-4 rounded-xl bg-white dark:bg-navy-700/50 border border-slate-200 dark:border-navy-600/50 hover:border-teal-400 dark:hover:border-teal-500/30 transition-all duration-200 group shadow-sm dark:shadow-none"
+                className="flex items-start gap-3 p-4 rounded-xl bg-slate-50 dark:bg-navy-700/50 border border-slate-200 dark:border-navy-600/50 hover:border-teal-400 dark:hover:border-teal-500/30 hover:bg-white dark:hover:bg-navy-700/70 transition-all duration-200 group shadow-sm"
                 style={{ transitionDelay: `${i * 50}ms` }}
               >
-                <CheckCircle size={18} className="text-teal-500 dark:text-teal-400 mt-0.5 shrink-0 group-hover:scale-110 transition-transform" />
-                <span className="text-slate-600 dark:text-slate-300 text-sm">{item}</span>
+                <CheckCircle size={18} className="text-teal-600 dark:text-teal-400 mt-0.5 shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-slate-700 dark:text-slate-300 text-sm font-medium">{item}</span>
               </div>
             ))}
           </div>

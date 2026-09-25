@@ -113,7 +113,7 @@ export default function Hero() {
         <div className="flex justify-center mt-16">
           <button
             onClick={scrollToAbout}
-            className="flex flex-col items-center gap-2 text-slate-400 hover:text-teal-500 dark:hover:text-teal-400 transition-colors group"
+            className="flex flex-col items-center gap-2 text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400 transition-colors group"
           >
             <span className="text-xs tracking-widest uppercase">Scroll to explore</span>
             <ChevronDown size={20} className="animate-bounce" />

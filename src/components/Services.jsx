@@ -124,7 +124,7 @@ function EnquiryModal({ service, onClose }) {
             </div>
             <button
               onClick={onClose}
-              className="shrink-0 p-2 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-navy-700 transition-colors"
+              className="shrink-0 p-2 rounded-lg text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-navy-700 transition-colors"
             >
               <X size={18} />
             </button>
@@ -184,7 +184,7 @@ function EnquiryModal({ service, onClose }) {
 
             <div>
               <label className="block text-xs font-medium text-slate-600 dark:text-slate-400 mb-1.5">
-                Phone Number <span className="text-slate-400 font-normal">(optional)</span>
+                Phone Number <span className="text-slate-500 dark:text-slate-400 font-normal">(optional)</span>
               </label>
               <input
                 type="tel"
@@ -198,7 +198,7 @@ function EnquiryModal({ service, onClose }) {
 
             <div>
               <label className="block text-xs font-medium text-slate-600 dark:text-slate-400 mb-1.5">
-                Message <span className="text-slate-400 font-normal">(optional)</span>
+                Message <span className="text-slate-500 dark:text-slate-400 font-normal">(optional)</span>
               </label>
               <textarea
                 name="message"
@@ -227,7 +227,7 @@ function EnquiryModal({ service, onClose }) {
               </button>
             </div>
 
-            <p className="text-xs text-slate-400 text-center">
+            <p className="text-xs text-slate-500 dark:text-slate-400 text-center">
               Clicking "Send Enquiry" will open your email client with the details pre-filled.
             </p>
           </form>
@@ -324,7 +324,7 @@ export default function Services() {
 
           {/* Bottom note */}
           <div className="mt-12 text-center">
-            <p className="text-slate-400 dark:text-slate-500 text-sm">
+            <p className="text-slate-500 dark:text-slate-400 text-sm">
               All trainings can be conducted on-site or online. &nbsp;
               <a
                 href="mailto:shalkinirgun2009@gmail.com?subject=Training%20Enquiry"
