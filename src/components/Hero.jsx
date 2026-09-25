@@ -86,7 +86,11 @@ export default function Hero() {
               <div className="w-52 h-52 md:w-64 md:h-64 rounded-3xl overflow-hidden shadow-2xl glow-teal ring-4 ring-teal-500/20">
                 <img
                   src="/profile.jpg"
-                  alt="FT Shalki Kadam"
+                  alt="FT Shalki Kadam - Senior Food Safety Consultant and Certified Lead Auditor"
+                  width="256"
+                  height="256"
+                  loading="eager"
+                  fetchpriority="high"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
