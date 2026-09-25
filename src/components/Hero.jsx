@@ -83,8 +83,12 @@ export default function Hero() {
           <div className="flex flex-col items-center gap-6 animate-fade-in">
             {/* Avatar */}
             <div className="relative">
-              <div className="w-52 h-52 md:w-64 md:h-64 rounded-3xl bg-gradient-to-br from-teal-500 via-teal-600 to-teal-700 flex items-center justify-center shadow-2xl glow-teal border border-teal-500/20">
-                <span className="font-display font-bold text-7xl md:text-8xl text-white/90">SK</span>
+              <div className="w-52 h-52 md:w-64 md:h-64 rounded-3xl overflow-hidden shadow-2xl glow-teal ring-4 ring-teal-500/20">
+                <img
+                  src="/profile.jpg"
+                  alt="FT Shalki Kadam"
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               {/* Floating badge */}
               <div className="absolute -bottom-4 -right-4 bg-gold-500 text-white rounded-2xl px-4 py-2 text-xs font-bold shadow-lg">
